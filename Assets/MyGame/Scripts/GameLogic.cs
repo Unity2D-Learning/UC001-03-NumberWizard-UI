@@ -18,14 +18,14 @@ public class GameLogic{
     //Methoden deklaration von AdaptMax(), von Aussen erreichbar
     public void AdaptMax()
     {
-        max = guess;
+        max = guess - 1;
         CalcGuess();
     }
 
     //Methoden deklaration von AdaptMin(), von Aussen erreichbar
     public void AdaptMin()
     {
-        min = guess;
+        min = guess + 1;
         CalcGuess();
     }
 
@@ -46,13 +46,14 @@ public class GameLogic{
         //Initialisierung
         min = 1;
         max = 1000;
-        guess = 500;
+        CalcGuess();
     }
 
     //Methoden deklaration von CalcGuess() 
     private void CalcGuess()
     {
-        guess = (min + max) / 2;
+        //guess = (min + max) / 2;
+        guess = Random.Range(min, max);
     }
 
     //Methoden deklaration von MyDebug() 
