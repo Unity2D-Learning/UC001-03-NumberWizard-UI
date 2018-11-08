@@ -1,6 +1,6 @@
-# Individual-NumberWizard2D, guessing game
+# NumberWizard-UI, guessing game
 
-Developed on Windows 10 with Unity Version 2018.2.6.f1, as Browsergame (WebGL export)
+Developed on Windows 10 with Unity Version 2018.2.6f1, as Browsergame (WebGL export)
 
 ![Image Number wizard WebGL](./Screenshots/nbrw-2d-individual-smeerws.jpg)
 
@@ -11,7 +11,7 @@ After each system's guess, the player confirms with eighter "number is lower", "
 ----------------------
 GameMechanics: 
 
-guess = ( min + max ) / 2
+guess = ( min + max ) / 2 --> updated with Random(min,max+1)
 
 if secret number < guess --> max = guess
 
