@@ -19,4 +19,7 @@ if secret nubmer > guess --> min = guess
 
 ![Image game mech Number wizard](./Screenshots/gameMech-nbrw.jpg)
 
+https://www.matheretter.de/rechner/logarithmus
+https://medium.com/karuna-sehgal/a-simplified-interpretation-of-binary-search-246433693e0b
+
 ------------------------
